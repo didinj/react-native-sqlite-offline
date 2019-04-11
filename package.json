@@ -1,0 +1,34 @@
+{
+  "name": "reactOffline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.12",
+    "@types/react-native": "^0.57.42",
+    "@types/react-native-sqlite-storage": "^3.3.1",
+    "install": "^0.12.2",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-sqlite-storage": "^3.3.10",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.0",
+    "jest": "^24.7.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
