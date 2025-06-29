@@ -1,6 +1,6 @@
 # React Native Tutorial: Build an Offline Mobile App with SQLite on Android & iOS
 
-Read full tutorial [here]().
+Read full tutorial [here](https://www.djamware.com/post/5caec76380aca754f7a9d1f1/react-native-tutorial-build-an-offline-mobile-app-with-sqlite-on-android-ios).
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
