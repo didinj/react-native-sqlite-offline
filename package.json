@@ -1,34 +1,45 @@
 {
-  "name": "reactOffline",
+  "name": "RNSQLiteOffline",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json",
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
-    "@types/react": "^16.8.12",
-    "@types/react-native": "^0.57.42",
-    "@types/react-native-sqlite-storage": "^3.3.1",
-    "install": "^0.12.2",
-    "react": "16.8.3",
-    "react-native": "0.59.3",
-    "react-native-elements": "^1.1.0",
-    "react-native-gesture-handler": "^1.1.0",
-    "react-native-sqlite-storage": "^3.3.10",
-    "react-native-vector-icons": "^6.4.2",
-    "react-navigation": "^3.6.1"
+    "@react-native/new-app-screen": "0.80.0",
+    "@react-navigation/native": "^7.1.14",
+    "@react-navigation/native-stack": "^7.3.21",
+    "@types/react-native-sqlite-storage": "^6.0.5",
+    "react": "19.1.0",
+    "react-native": "0.80.0",
+    "react-native-gesture-handler": "^2.26.0",
+    "react-native-paper": "^5.14.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
-    "babel-jest": "^24.7.0",
-    "jest": "^24.7.0",
-    "metro-react-native-babel-preset": "^0.53.1",
-    "react-test-renderer": "16.8.3"
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "19.0.0",
+    "@react-native-community/cli-platform-android": "19.0.0",
+    "@react-native-community/cli-platform-ios": "19.0.0",
+    "@react-native/babel-preset": "0.80.0",
+    "@react-native/eslint-config": "0.80.0",
+    "@react-native/metro-config": "0.80.0",
+    "@react-native/typescript-config": "0.80.0",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^19.1.0",
+    "@types/react-test-renderer": "^19.1.0",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "19.1.0",
+    "typescript": "5.0.4"
   },
-  "jest": {
-    "preset": "react-native"
+  "engines": {
+    "node": ">=18"
   }
 }
